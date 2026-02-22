@@ -54,6 +54,30 @@ def apply_responsive_legend(fig):
             margin=dict(l=0, r=0, t=40, b=20)
         )
 
+st.markdown("""
+<div style="
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 10px;
+    color: grey;
+    text-align: right;
+">
+<b>Bowler Type Key:</b><br>
+ROB = Right-arm Off Break<br>
+RLB = Right-arm Leg Break<br>
+RF = Right-arm Fast<br>
+RFM = Right-arm Fast Medium<br>
+RM = Right-arm Medium<br>
+LOB = Left-arm Orthodox<br>
+LLB = Left-arm Leg Break<br>
+LF = Left-arm Fast<br>
+LFM = Left-arm Fast Medium<br>
+LM = Left-arm Medium<br>
+WK = Wicketkeeper<br>
+NA = Not Available
+</div>
+""", unsafe_allow_html=True)        
 
 # ---------------------------------------------------
 # LOAD DATA
@@ -146,13 +170,38 @@ if selected_teams:
 else:
     team_filtered = data.copy()
 
-bowlers = sorted(team_filtered['Bowler'].dropna().unique())
+# ------------------------------------------
+# Create Bowler + Most Frequent Type label
+# ------------------------------------------
 
-selected_bowlers = st.sidebar.multiselect(
-    "Bowler",
-    bowlers,
-    default=bowlers[:1] if len(bowlers) > 0 else []
+bowler_type_mode = (
+    team_filtered
+    .dropna(subset=["Bowler"])
+    .groupby("Bowler")["Bowler Type"]
+    .agg(lambda x: x.mode().iloc[0] if not x.mode().empty else None)
+    .reset_index()
 )
+
+bowler_type_mode["Display Name"] = (
+    bowler_type_mode["Bowler"] + " (" +
+    bowler_type_mode["Bowler Type"].fillna("NA") + ")"
+)
+
+# Create mapping
+display_to_bowler = dict(
+    zip(bowler_type_mode["Display Name"], bowler_type_mode["Bowler"])
+)
+
+display_options = sorted(display_to_bowler.keys())
+
+selected_display = st.sidebar.multiselect(
+    "Bowler",
+    display_options,
+    default=display_options[:1] if len(display_options) > 0 else []
+)
+
+# Convert back to actual bowler names
+selected_bowlers = [display_to_bowler[d] for d in selected_display]
 
 # Year
 years = sorted(data['Year'].dropna().unique())
