@@ -31,7 +31,6 @@ if is_mobile:
     </div>
     """, unsafe_allow_html=True)
 
-st.title("One-Day Cup Bowling Dashboard")
 def apply_responsive_legend(fig):
     if is_mobile:
         fig.update_layout(
@@ -54,12 +53,14 @@ def apply_responsive_legend(fig):
             margin=dict(l=0, r=0, t=40, b=20)
         )
 
+st.title("One-Day Cup Bowling Dashboard")
+
 st.markdown("""
 <div style="
     position: absolute;
     top: 0px;
     right: 0px;
-    font-size: 10px;
+    font-size: 8px;
     color: grey;
     text-align: right;
 ">
@@ -77,7 +78,7 @@ LM = Left-arm Medium<br>
 WK = Wicketkeeper<br>
 NA = Not Available
 </div>
-""", unsafe_allow_html=True)        
+""", unsafe_allow_html=True)
 
 # ---------------------------------------------------
 # LOAD DATA
@@ -212,13 +213,21 @@ selected_years = st.sidebar.multiselect(
     default=years
 )
 
-# Venue
-venues = sorted(data['Venue'].dropna().unique())
+# ---------------------------------------------------
+# PHASE FILTER
+# ---------------------------------------------------
 
-selected_venues = st.sidebar.multiselect(
-    "Venue",
-    venues,
-    default=venues
+phases = [
+    "Powerplay (1-10)",
+    "Upper Middle (11-25)",
+    "Lower Middle (26-40)",
+    "Death (41-50)"
+]
+
+selected_phases = st.sidebar.multiselect(
+    "Phase",
+    phases,
+    default=phases
 )
 
 # ---------------------------------------------------
@@ -235,6 +244,15 @@ selected_pitch_options = st.sidebar.multiselect(
     default=pitch_options
 )
 
+# Venue
+venues = sorted(data['Venue'].dropna().unique())
+
+selected_venues = st.sidebar.multiselect(
+    "Venue",
+    venues,
+    default=venues
+)
+
 # ---------------------------------------------------
 # APPLY FILTERS
 # ---------------------------------------------------
@@ -249,6 +267,9 @@ if selected_bowlers:
 
 if selected_years:
     filtered = filtered[filtered['Year'].isin(selected_years)]
+  
+if selected_phases:
+    filtered = filtered[filtered["Phase"].isin(selected_phases)]
 
 if selected_venues:
     filtered = filtered[filtered['Venue'].isin(selected_venues)]
@@ -294,8 +315,19 @@ dismissals = bowler_df[
     bowler_df['Bowler Wicket'] == 1
 ].shape[0]
 
-bowling_average = round(runs_conceded / dismissals, 2) if dismissals > 0 else "—"
-strike_rate = round(legal_balls / dismissals, 2) if dismissals > 0 else "—"
+bowling_average = round(runs_conceded / dismissals, 1) if dismissals > 0 else "—"
+strike_rate = round(legal_balls / dismissals, 1) if dismissals > 0 else "—"
+
+runs_conceded = bowler_df['Total Runs'].sum()
+
+legal_balls = bowler_df[
+    bowler_df['Legal Ball'] == "yes"
+].shape[0]
+
+economy_rate = (
+    round((runs_conceded / legal_balls) * 6, 1)
+    if legal_balls > 0 else "—"
+)
 
 dot_balls = bowler_df[
     (bowler_df['Legal Ball'] == "yes") &
@@ -306,14 +338,15 @@ dot_ball_percentage = round(
     (dot_balls / legal_balls) * 100, 2
 ) if legal_balls > 0 else 0
 
-col1, col2, col3, col4, col5, col6 = st.columns(6)
+col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
 
 col1.metric("Runs Conceded", runs_conceded)
 col2.metric("Balls Bowled", legal_balls)
 col3.metric("Dismissals", dismissals)
 col4.metric("Average", bowling_average)
 col5.metric("Strike Rate", strike_rate)
-col6.metric("Dot Ball %", f"{dot_ball_percentage}")
+col6.metric("Economy", economy_rate)
+col7.metric("Dot %", f"{dot_ball_percentage}")
 
 # ---------------------------------------------------
 # PITCH MAP
