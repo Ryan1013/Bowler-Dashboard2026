@@ -267,7 +267,7 @@ if selected_bowlers:
 
 if selected_years:
     filtered = filtered[filtered['Year'].isin(selected_years)]
-  
+
 if selected_phases:
     filtered = filtered[filtered["Phase"].isin(selected_phases)]
 
@@ -335,7 +335,7 @@ dot_balls = bowler_df[
 ].shape[0]
 
 dot_ball_percentage = round(
-    (dot_balls / legal_balls) * 100, 2
+    (dot_balls / legal_balls) * 100, 1
 ) if legal_balls > 0 else 0
 
 col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
