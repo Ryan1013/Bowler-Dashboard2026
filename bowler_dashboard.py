@@ -13,7 +13,7 @@ def detect_mobile():
 
 is_mobile = detect_mobile()
 
-st.set_page_config(layout="wide", initial_sidebar_state="auto")
+st.set_page_config(layout="wide", initial_sidebar_state="expanded")
 
 if is_mobile:
     st.markdown("""
@@ -149,6 +149,16 @@ def load_data():
 
 
 data = load_data()
+
+# ---------------- VIDEO LINKS ---------------- #
+
+video_links = {
+    "RN Cambampaty": {
+        "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260226_PLAYLIST_1080.mp4",
+        "Stock Ball": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/yorkshire-women-v-middlesex-women---2-aug-2025/VPM_260226_YORW_MIDW_PLAYLIST_1080.mp4",
+        "Turn Away": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/glamorgan-women-v-middlesex-women---27-apr-2025/VPM_260226_GLAMW_MIDW_PLAYLIST_1080.mp4"
+    }
+}
 
 # ---------------------------------------------------
 # SIDEBAR FILTERS
@@ -821,3 +831,27 @@ if len(bowler_ba_stats) > 0:
 
 else:
     st.info("No Business Area data available.")
+
+# ---------------- VIDEO SECTION ---------------- #
+
+st.subheader("Videos (Filters not applicable to this section)")
+
+if len(selected_bowlers) == 1:
+
+    bowler_name = selected_bowlers[0]
+
+    if bowler_name in video_links:
+
+        bowler_videos = video_links[bowler_name]
+
+        # Only show categories that exist
+        for category, link in bowler_videos.items():
+
+            st.markdown(f"**{category}**")
+            st.video(link)
+
+    else:
+        st.write("No video links available for selected bowler.")
+
+else:
+    st.write("Select a single bowler to view video highlights.")
