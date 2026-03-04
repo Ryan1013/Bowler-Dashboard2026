@@ -157,7 +157,21 @@ video_links = {
         "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260226_PLAYLIST_1080.mp4",
         "Stock Ball": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/yorkshire-women-v-middlesex-women---2-aug-2025/VPM_260304_YORW_MIDW_PLAYLIST_1080.mp4",
         "Turn Away": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/glamorgan-women-v-middlesex-women---27-apr-2025/VPM_260304_GLAMW_MIDW_PLAYLIST_1080.mp4"
-    }
+        },
+    "HR Davis": {
+        "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260304_PLAYLIST_1080.mp4",
+        "Turn Away": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260304_PLAYLIST_1080_1.mp4",
+        "Googly": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260304_PLAYLIST_1080_1_2.mp4",
+        "Leg Spinner": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/yorkshire-women-v-middlesex-women---2-aug-2025/VPM_260304_YORW_MIDW_PLAYLIST_1080_1.mp4"
+        },
+    "AK Dissanayake": {
+        "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260304_PLAYLIST_1080_1_2_3_4.mp4",
+        "Turn Away": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260304_PLAYLIST_1080_1_2_3_4_5.mp4",
+        "Leg Spinner": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/northamptonshire-steelbacks-women-v-middlesex-women---3-may-2025/VPM_260304_NORW_MIDW_PLAYLIST_1080.mp4"
+        },
+    "AE Downer": {
+        "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/middlesex-women-v-worcestershire-rapids-women---30-aug-2025/VPM_260304_MIDW_WORCW_PLAYLIST_1080.mp4"
+        }
 }
 
 # ---------------------------------------------------
