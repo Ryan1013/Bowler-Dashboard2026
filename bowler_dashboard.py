@@ -155,8 +155,8 @@ data = load_data()
 video_links = {
     "RN Cambampaty": {
         "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260226_PLAYLIST_1080.mp4",
-        "Stock Ball": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/yorkshire-women-v-middlesex-women---2-aug-2025/VPM_260226_YORW_MIDW_PLAYLIST_1080.mp4",
-        "Turn Away": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/glamorgan-women-v-middlesex-women---27-apr-2025/VPM_260226_GLAMW_MIDW_PLAYLIST_1080.mp4"
+        "Stock Ball": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/yorkshire-women-v-middlesex-women---2-aug-2025/VPM_260304_YORW_MIDW_PLAYLIST_1080.mp4",
+        "Turn Away": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/glamorgan-women-v-middlesex-women---27-apr-2025/VPM_260304_GLAMW_MIDW_PLAYLIST_1080.mp4"
     }
 }
 
