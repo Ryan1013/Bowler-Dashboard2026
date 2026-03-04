@@ -197,8 +197,13 @@ video_links = {
     },
     "A Patel": {
         "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260304_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15.mp4"
+    },
+    "S Patel": {
+        "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260304_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16.mp4",
+        "Seam In/Inswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260304_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17.mp4",
+        "Yorker": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260304_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18.mp4"
     }
-}    
+}
 
 # ---------------------------------------------------
 # SIDEBAR FILTERS
