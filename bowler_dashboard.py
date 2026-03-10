@@ -155,7 +155,7 @@ data = load_data()
 video_links = {
     "RN Cambampaty": {
         "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260226_PLAYLIST_1080.mp4",
-        "Stock Ball": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/yorkshire-women-v-middlesex-women---2-aug-2025/VPM_260304_YORW_MIDW_PLAYLIST_1080.mp4",
+        "Stock": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/yorkshire-women-v-middlesex-women---2-aug-2025/VPM_260304_YORW_MIDW_PLAYLIST_1080.mp4",
         "Turn Away": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/glamorgan-women-v-middlesex-women---27-apr-2025/VPM_260304_GLAMW_MIDW_PLAYLIST_1080.mp4"
         },
     "HR Davis": {
@@ -177,7 +177,7 @@ video_links = {
     "GKS Gole": {
         "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260304_PLAYLIST_1080_1_2_3_4_5_6.mp4",
         "Seam In/Inswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260304_PLAYLIST_1080_1_2_3_4_5_6_7.mp4",
-        "Slower Ball": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260304_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10.mp4",
+        "Slower": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260304_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10.mp4",
         "Yorker": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260304_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11.mp4"
         },
     "SM Horley": {
@@ -202,6 +202,29 @@ video_links = {
         "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260304_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16.mp4",
         "Seam In/Inswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260304_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17.mp4",
         "Yorker": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260304_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18.mp4"
+    },
+    "S Pearson": {
+        "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260310_PLAYLIST_1080.mp4",
+        "Slower": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260310_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11.mp4"
+    },
+    "IFK Routledge": {
+        "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260310_PLAYLIST_1080_1.mp4",
+        "Turn In": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260310_PLAYLIST_1080_1_2.mp4"
+    },
+    "L Turner": {
+        "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260310_PLAYLIST_1080_1_2_3.mp4",
+        "Seam Away/Outswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260310_PLAYLIST_1080_1_2_3_4.mp4",
+        "Yorker": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260310_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10.mp4"
+    },
+    "REA Tyson": {
+        "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/middlesex-women-v-gloucestershire-women---15-may-2025/VPM_260310_MIDW_GLOSW_PLAYLIST_1080.mp4"
+    },
+    "KJ Wolfe": {
+        "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260310_PLAYLIST_1080_1_2_3_4_5.mp4",
+        "Seam In/Inswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260310_PLAYLIST_1080_1_2_3_4_5_6.mp4",
+        "Seam Away/Outswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260310_PLAYLIST_720.mp4",
+        "Slower": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260310_PLAYLIST_1080_1_2_3_4_5_6_7_8.mp4",
+        "Yorker": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260310_PLAYLIST_1080_1_2_3_4_5_6_7_8_9.mp4"
     }
 }
 
