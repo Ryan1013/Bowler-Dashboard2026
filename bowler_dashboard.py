@@ -225,6 +225,69 @@ video_links = {
         "Seam Away/Outswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260310_PLAYLIST_720.mp4",
         "Slower": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260310_PLAYLIST_1080_1_2_3_4_5_6_7_8.mp4",
         "Yorker": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260310_PLAYLIST_1080_1_2_3_4_5_6_7_8_9.mp4"
+    },
+    "LA Bailey": {
+        "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2.mp4",
+        "Turn Away": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3.mp4"
+    },
+    "OJ Barnes": {
+        "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/worcestershire-rapids-women-v-kent-women---3-aug-2025/VPM_260404_WORCW_KENTW_PLAYLIST_1080.mp4",
+        "Turn Away": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/worcestershire-rapids-women-v-kent-women---3-aug-2025/VPM_260404_WORCW_KENTW_PLAYLIST_1080_1.mp4"
+    },
+    "EG Barnfather": {
+        "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5.mp4"
+    },
+    "MS Belt": {
+        "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6.mp4",
+        "Turn In": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7.mp4"
+    },
+    "Z Bilal": {
+        "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8.mp4",
+        "Seam In/Inswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9.mp4",
+        "Seam Away/Outswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10.mp4",
+        "Yorker": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12.mp4"
+    },
+    "MC Callaghan": {
+        "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14.mp4",
+        "Seam Away/Outswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15.mp4",
+        "Yorker": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13.mp4"
+    },
+    "EL Darlington": {
+        "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16.mp4",
+        "Seam In/Inswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17.mp4",
+        "Yorker": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18.mp4"
+    },
+    "AG Gordon": {
+        "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19.mp4",
+        "Turn In": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20.mp4"
+    },
+    "SR Gorham": {
+        "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21.mp4",
+        "Seam Away/Outswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22.mp4"
+    },
+    "AF Grant": {
+        "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23.mp4",
+        "Yorker": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24.mp4"
+    },
+    "IG James": {
+        "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25.mp4",
+        "Turn Away": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26.mp4"
+    },
+    "GRK Jeer": {
+        "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27.mp4",
+        "Seam In/Inswinger": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/worcestershire-rapids-women-v-kent-women---3-aug-2025/VPM_260404_WORCW_KENTW_PLAYLIST_1080_1_2.mp4",
+        "Seam Away/Outswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28.mp4"
+    },
+    "GA Poole": {
+        "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29.mp4",
+        "Seam Away/Outswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30.mp4"
+    },
+    "SA Singer": {
+        "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260404_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31.mp4",
+        "Turn Away": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/worcestershire-rapids-women-v-kent-women---3-aug-2025/VPM_260404_WORCW_KENTW_PLAYLIST_1080_1_2_3.mp4"
+    },
+    "ML Sturge": {
+        "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/sussex-sharks-women-v-kent-women---15-may-2025/VPM_260404_SUSW_KENTW_PLAYLIST_1080.mp4"
     }
 }
 
@@ -240,7 +303,7 @@ teams = sorted(data['Bowling Team'].dropna().unique())
 selected_teams = st.sidebar.multiselect(
     "Bowling Team",
     teams,
-    default=["Middlesex Women"] if "Middlesex Women" in teams else teams[:1]
+    default=["Kent Women"] if "Kent Women" in teams else teams[:1]
 )
 
 # Bowler (dependent)
