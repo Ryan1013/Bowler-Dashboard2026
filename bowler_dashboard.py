@@ -444,6 +444,12 @@ outcome_filtered = filtered[mask]
 
 st.subheader("Bowler Stats")
 
+bowler_innings_count = filtered[
+    filtered['Bowler'].isin(selected_bowlers)
+].groupby(['Match', 'Date', 'Innings']).ngroups
+
+st.caption(f"Sample Size: {bowler_innings_count} innings")
+
 bowler_df = filtered.copy()
 
 runs_conceded = bowler_df['Total Runs'].sum()
