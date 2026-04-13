@@ -86,7 +86,7 @@ NA = Not Available
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("MB50_25.csv", low_memory=False)
+    df = pd.read_csv("MB50_T2.csv", low_memory=False)
 
     # Date parsing
     df['Date'] = pd.to_datetime(
