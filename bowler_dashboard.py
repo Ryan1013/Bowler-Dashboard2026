@@ -291,6 +291,30 @@ video_links = {
     },
     "KE Cobb": {
         "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2.mp4"
+    },
+    "AM Shearn": {
+        "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2_3.mp4"
+    },
+    "BL Ellis": {
+        "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2_3_4.mp4"
+    },
+    "E Jackson": {
+        "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2_3_4_5_6.mp4"
+    },
+    "GMG Porter": {
+        "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2_3_4_5_6_7.mp4"
+    },
+    "JR Westley": {
+        "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2_3_4_5_6_7_8.mp4"
+    },
+    "N Reid": {
+        "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2_3_4_5_6_7_8_9.mp4"
+    },
+    "PA Walker": {
+        "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10.mp4"
+    },
+    "SE Phillips": {
+        "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11.mp4"
     }
 }
 
