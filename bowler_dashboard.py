@@ -291,7 +291,7 @@ video_links = {
     },
     "KE Cobb": {
         "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2.mp4"
-    },
+    }
 }
 
 # ---------------------------------------------------
@@ -306,7 +306,7 @@ teams = sorted(data['Bowling Team'].dropna().unique())
 selected_teams = st.sidebar.multiselect(
     "Bowling Team",
     teams,
-    default=["Kent Women"] if "Kent Women" in teams else teams[:1]
+    default=["Glamorgan Women"] if "Glamorgan Women" in teams else teams[:1]
 )
 
 # Bowler (dependent)
