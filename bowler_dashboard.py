@@ -288,7 +288,10 @@ video_links = {
     },
     "ML Sturge": {
         "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/sussex-sharks-women-v-kent-women---15-may-2025/VPM_260404_SUSW_KENTW_PLAYLIST_1080.mp4"
-    }
+    },
+    "KE Cobb": {
+        "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2.mp4"
+    },
 }
 
 # ---------------------------------------------------
