@@ -289,32 +289,40 @@ video_links = {
     "ML Sturge": {
         "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2025/metro-bank-one-day-cup---women-league-2/sussex-sharks-women-v-kent-women---15-may-2025/VPM_260404_SUSW_KENTW_PLAYLIST_1080.mp4"
     },
-    "KE Cobb": {
-        "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2.mp4"
+    "CJ Belcher": {
+        "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16.mp4",
+        "Seam In/Inswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17.mp4",
+        "Seam Away/Outswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18.mp4"
     },
-    "AM Shearn": {
-        "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2_3.mp4"
+    "AE Bird": {
+        "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19.mp4",
+        "Seam In/Inswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20.mp4",
+        "Slower": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21.mp4",
+        "Yorker": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22.mp4"
     },
-    "BL Ellis": {
-        "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2_3_4.mp4"
+    "OG Daniels": {
+        "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23.mp4",
+        "Turn In": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24.mp4"
     },
-    "E Jackson": {
-        "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2_3_4_5_6.mp4"
+    "KJ Dolman": {
+        "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25.mp4",
+        "Seam Away/Outswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26.mp4"
     },
-    "GMG Porter": {
-        "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2_3_4_5_6_7.mp4"
+    "ER Geach": {
+        "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27.mp4",
+        "Seam Away/Outswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28.mp4"
     },
-    "JR Westley": {
-        "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2_3_4_5_6_7_8.mp4"
+    "AV Hill": {
+        "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29.mp4",
+        "Turn In": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30.mp4"
     },
-    "N Reid": {
-        "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2_3_4_5_6_7_8_9.mp4"
+    "CR Phillips": {
+        "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31.mp4",
+        "Turn In": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32.mp4"
     },
-    "PA Walker": {
-        "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10.mp4"
-    },
-    "SE Phillips": {
-        "Bowling Compilation": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260420_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11.mp4"
+    "CN Skelton": {
+        "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33.mp4",
+        "Turn In": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34.mp4"
     }
 }
 
