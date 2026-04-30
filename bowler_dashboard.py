@@ -297,8 +297,8 @@ video_links = {
     "AE Bird": {
         "No Movement": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19.mp4",
         "Seam In/Inswinger": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20.mp4",
-        "Slower": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21.mp4",
-        "Yorker": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22.mp4"
+        "Slower": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35.mp4",
+        "Yorker": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23_24_25_26_27_28_29_30_31_32_33_34_35_36.mp4"
     },
     "OG Daniels": {
         "No Turn": "https://vid.ecb.nvplay.net/video-highlights/2026/VPM_260430_PLAYLIST_1080_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_19_20_21_22_23.mp4",
@@ -338,7 +338,7 @@ teams = sorted(data['Bowling Team'].dropna().unique())
 selected_teams = st.sidebar.multiselect(
     "Bowling Team",
     teams,
-    default=["Glamorgan Women"] if "Glamorgan Women" in teams else teams[:1]
+    default=["Gloucestershire Women"] if "Gloucestershire Women" in teams else teams[:1]
 )
 
 # Bowler (dependent)
